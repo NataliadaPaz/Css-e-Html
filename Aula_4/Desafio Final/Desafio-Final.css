@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(190, 235, 232);
+}
+
+h1{
+    color: blue;
+    text-align: center;
+
+}
+form{
+    background-color: azure;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+label{
+    text-align: left;
+    color: lightslategray;
+    font-size: smaller;
+}
+.termos{
+    text-align: justify;
+    font-size: small;
+    color: lightslategray;
+}
+input{
+    border-color: lightblue;
+    border-radius: 10px;
+    
+    width:400px;
+    height: 25px;
+    padding: 5px;
+}
+input::placeholder {
+    color: rgb(198, 198, 198);
+}
+
+button{
+        border-radius: 60px;
+        height: 50px;
+        background-color: blue;
+        text-align: center;
+        cursor: pointer;
+    }

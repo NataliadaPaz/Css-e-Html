@@ -1,0 +1,620 @@
+/* Variáveis de cores - Paleta Soundio */
+:root {
+    --primary-bg: #191E29;
+    --secondary-bg: #132D46;
+    --accent: #01C38D;
+    --secondary-text: #696E79;
+    --primary-text: #FFFFFF;
+    --hover-accent: #00B37D;
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+/* Reset e estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: var(--secondary-bg);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--accent), #0077B6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, var(--accent), #0077B6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Barra de pesquisa */
+.search-container {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    padding-right: 3rem;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 25px;
+    color: var(--primary-text);
+    font-size: 0.9rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-button {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--secondary-text);
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Navegação */
+.navigation {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--primary-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent);
+}
+
+/* Botões */
+.primary-button {
+    background: var(--accent);
+    color: var(--primary-text);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background: var(--hover-accent);
+}
+
+.secondary-button {
+    background: var(--glass-bg);
+    color: var(--primary-text);
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--glass-border);
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.secondary-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.accent-button {
+    background: var(--accent);
+    color: var(--primary-text);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accent-button:hover {
+    background: var(--hover-accent);
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero-background {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.hero-background::before,
+.hero-background::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.2;
+    filter: blur(3rem);
+}
+
+.hero-background::before {
+    top: -10rem;
+    right: -10rem;
+    width: 20rem;
+    height: 20rem;
+    background: var(--accent);
+}
+
+.hero-background::after {
+    bottom: -10rem;
+    left: -10rem;
+    width: 20rem;
+    height: 20rem;
+    background: #0077B6;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--secondary-text);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    background: var(--accent);
+    color: var(--primary-text);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background: var(--hover-accent);
+}
+
+/* Seções */
+.section {
+    padding: 4rem 0;
+}
+
+.section.bg-secondary {
+    background: var(--secondary-bg);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: var(--secondary-text);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Filtros */
+.filter-tabs {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-tab {
+    background: var(--glass-bg);
+    color: var(--primary-text);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-tab:hover,
+.filter-tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+/* Grid de músicas */
+.music-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.music-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.music-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.music-image {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.music-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    border: none;
+    border-radius: 50%;
+    color: var(--primary-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.play-button:hover {
+    transform: scale(1.1);
+}
+
+.chart-position {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background: var(--accent);
+    color: var(--primary-text);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.music-info {
+    text-align: center;
+}
+
+.music-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.music-artist {
+    color: var(--secondary-text);
+    margin-bottom: 0.5rem;
+}
+
+.music-stats,
+.music-analysis {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+.plays,
+.rating {
+    color: var(--secondary-text);
+}
+
+.analysis-tag {
+    background: var(--secondary-bg);
+    color: var(--primary-text);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+/* Biblioteca */
+.library-content {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.library-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.library-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.playlist-card {
+    background: var(--secondary-bg);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.playlist-card:hover {
+    transform: translateY(-2px);
+}
+
+.playlist-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.playlist-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playlist-info {
+    flex: 1;
+}
+
+.playlist-title {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.playlist-count {
+    color: var(--secondary-text);
+    font-size: 0.8rem;
+}
+
+.playlist-play-button {
+    background: none;
+    border: none;
+    color: var(--primary-text);
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Estúdio */
+.studio-content {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.studio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.studio-section {
+    margin-bottom: 2rem;
+}
+
+.studio-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.piano-container {
+    background: var(--secondary-bg);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.piano-keys {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.piano-key {
+    background: var(--primary-text);
+    color: var(--primary-bg);
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.piano-key:hover,
+.piano-key.active {
+    background: var(--accent);
+    color: var(--primary-text);
+    transform: translateY(2px);
+}
+
+.studio-controls {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+}
+
+.studio-control {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 6px;
+    padding: 0.5rem;
+    color: var(--primary-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.studio-control:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+.lyrics-container {
+    background: var(--secondary-bg);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.lyrics-input {
+    width: 100%;
+    height: 150px;
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: var(--primary-text);
+    resize: vertical;
+    margin-bottom: 1rem;
+}
+
+.lyrics-input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.lyrics-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.lyrics-button {
+    flex: 1;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 6px;
+    padding: 0.5rem;
+    color: var(--primary-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lyrics-button.accent {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+.lyrics-button:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+/* Comentários */
+.comments-container {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.comments-list {
+    margin-bottom: 2rem;
+}
+

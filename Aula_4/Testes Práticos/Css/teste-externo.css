@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+    }
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+h2 {
+    text-align: left;
+    color: cadetblue;
+}
+.p1 {
+    color: midnightblue;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+} 
+.p2 {
+    color: rgb(71, 57, 23);
+    text-align: left;
+}
