@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    font-family: arial;
+}
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+button{
+    background-color: #c6f300;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+#reset{
+    background-color: #c6f300;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+.formulario{
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px;
+}

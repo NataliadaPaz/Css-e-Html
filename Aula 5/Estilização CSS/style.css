@@ -1,0 +1,46 @@
+body{
+        font-family: arial;
+    background-color: #ebebeb;
+}
+h1{
+    text-align: center;
+}
+.bloco1{
+    padding: 20px;
+    margin: 10px;
+    background-color: lightyellow;
+    text-align: left;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+.bloco2{
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(10, 161, 255);
+    text-align: left;
+    border: 5px solid yellow;
+    border-radius: 8px;
+    color: white;
+}
+
+.bloco3{
+    padding: 20px;
+    margin: 10px;
+    background-color:lightblue;
+    text-align: left;
+    border: 5px solid blue;
+    border-radius: 8px;
+    color: rgb(19, 19, 160);
+}
+
+.bloco4{
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+    margin: 10px;
+    background-color:white;
+    text-align: left;
+    border: 5px solid rgb(74, 35, 18);
+    border-radius: 8px;
+    color: rgb(74, 35, 18);
+}
