@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #f0f0f0;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.links-navegacao {
+  list-style: none;
+  display: flex;
+}
+.links-navegacao li {
+  margin-left: 20px;
+}
+
+.links-navegacao a {
+  text-decoration: none;
+  color: #333;
+}
+.links-navegacao a:hover {
+  color: #007bff;
+}
+
+.secao-principal {
+  background: #007bff;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+.secao-principal h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.secao-principal p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botao {
+  display: inline-block;
+  background: #dc3545;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.botao:hover {
+  background: #c82333;
+}
+
+.recursos {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+.titulo-secao {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.titulo-secao h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.grade-recursos {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cartao-recurso {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+.icone-recurso {
+  width: 50px;
+  height: 50px;
+  background: #007bff;
+  color: white;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.sobre {
+  padding: 60px 0;
+}
+.conteudo-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.texto-sobre {
+  flex: 1;
+  min-width: 300px;
+}
+.texto-sobre h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.imagem-sobre {
+  flex: 1;
+  min-width: 300px;
+}
+.imagem-sobre img {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.contato {
+  padding: 60px 0;
+}
+.contato-conteudo {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.contato-texto {
+  flex: 1 1 250px;
+  color: #2c3e50;
+}
+.contato-texto h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 5px solid #007bff;
+  padding-left: 15px;
+}
+.contato-texto p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.formulario-contato {
+  flex: 2 1 400px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.formulario-contato label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+.formulario-contato textarea {
+  min-height: 100px;
+}
+
+footer {
+  background: #343a40;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.conteudo-rodape {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  padding: 0 20px;
+}
+.secao-rodape {
+  flex: 1 1 30%;
+  min-width: 200px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.secao-rodape h3 {
+  margin-bottom: 10px;
+}
+
+.rodape-inferior {
+  border-top: 1px solid #555;
+  padding-top: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .links-navegacao li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .links-navegacao {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .secao-principal h1 {
+    font-size: 24px;
+  }
+  .conteudo-sobre {
+    flex-direction: column;
+  }
+  .grade-recursos {
+    flex-direction: column;
+  }
+  .cartao-recurso {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .conteudo-rodape {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .secao-rodape {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .contato-conteudo {
+    flex-direction: column;
+  }
+  .contato-texto,
+  .formulario-contato {
+    flex: 1 1 100%;
+  }
+}
