@@ -1,0 +1,115 @@
+
+#titulo{
+    background-color: yellow;
+}
+
+.bloco1 p{
+    color: blue;
+}
+
+.subtitulos{
+    color: green;
+}
+
+li{
+    color: red;
+}
+
+.bloco1{
+    background-color: rgb(186, 252, 255);
+}
+
+.bloco2{
+    background-color: rgb(228, 228, 228);
+}
+
+.agrupamento{
+   color: rgb(132, 145, 88);
+}
+
+#textoCentro{
+    text-align: center;
+}
+
+#google{
+    color: green;
+}
+
+#youtube{
+    color: red;
+}
+
+img{
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 20px;
+    background-image: none
+}
+
+.compartilhada{
+    font-weight: bold;
+}
+
+.cor p{
+    color: palegreen;
+}
+
+.text1{
+    color: blueviolet;
+}
+.text2{
+    color: cornflowerblue;
+}
+
+#arial{
+    font-family: Arial;
+}
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.estiloTitulo h3{
+    padding: 20px;
+    color: darkcyan;
+    font-size: 40px;
+}
+
+#vermelho{
+    color: red;
+}
+#verde{
+    color: green;
+}
+#azul{
+    color: blue;
+}
+.span{
+    color: lightgreen;
+}
+
+.caixaColorida{
+    margin: 2.7%;
+    height: 300px;
+    width: 1400px;
+    background-color: aquamarine;
+    border: 10px solid rgba(35, 35, 9, 0.416);
+}
+
+.links{
+    text-decoration: underline; 
+}
+
+.agruparTudo{
+    color: powderblue 
+}
+.agruparTudo a{
+    color: powderblue 
+}
