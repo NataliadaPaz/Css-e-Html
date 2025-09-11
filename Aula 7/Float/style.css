@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+.pai{
+    background-color: aqua;
+    overflow: auto;
+}
+.container{
+    background-color: inherit;
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 500px;
+    float: right;
+}
+img{
+    height: 200px;
+    border-radius: 10px;
+}

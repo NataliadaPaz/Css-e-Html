@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(205, 255, 238);
+}
+
+h1{
+    text-align: center;
+    color: rgb(23, 164, 117);
+}
+.aves{
+    margin: 20px auto;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+img{
+    border-radius: 15px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
