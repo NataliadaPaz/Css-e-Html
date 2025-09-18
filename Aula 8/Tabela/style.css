@@ -1,0 +1,102 @@
+
+h2{
+    padding-left: 30px;
+    font-size: 20px;
+}
+table{
+    align-content: center;
+    border-collapse: collapse;
+    border: solid black;
+    margin: 10px;
+}
+td{
+    padding: 10px 15px 10px;
+}
+.tabela1 {
+    border: solid black;
+}
+
+.tabela2 th{
+    background-color: gainsboro;
+}
+
+.tabela3{
+    color: blue;
+}
+
+.tabela4{
+    font-family: Arial;
+}
+
+.tabela5 th{
+    font-size: 20px;
+}
+
+.tabela6{
+    background-color: aquamarine;
+}
+
+.tabela7{
+    text-align: center;
+}
+
+.tabela8{
+    border: 10px solid black;
+}
+
+.tabela9 th{
+    background-color: red;
+}
+
+.tabela10{
+    padding: 10px;
+    margin: 10px;
+}
+
+.frutas{
+    font-style: italic;
+}
+
+.tabela12{
+    font-weight: bold;
+}
+
+#tabela13{
+    background-color: rgb(51, 173, 204);
+}
+
+.tabela14{
+    background-color: greenyellow;
+}
+
+.tabela15{
+   font-family: Verdana;
+   font-size: larger;
+}
+
+#tabela16{
+    background-color: rgb(190, 127, 248);
+}
+
+.tabela17 th{
+    background-color: black;
+    color: white;
+}
+
+.tabela18{
+    text-transform: uppercase;
+}
+
+.tabela19 th{
+    font-family: Verdana;
+}
+
+.tabela20{
+    background-color: rgb(242, 242, 242);
+    border: solid aquamarine;
+}
+
+.tabela20 th{
+    background-color: rgb(41, 115, 118);
+    color: white;
+}
