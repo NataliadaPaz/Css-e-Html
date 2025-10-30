@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/Modelo de Pizzaria/Imagens/pizza.jpg');
+  min-height: 90%;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">INÍCIO</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTATO</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Aberto das 10 am ás 12 pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">Aroma & Cuore</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>Um toque<br>italiano no coração do Brasil</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-green">Ver o menu</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MENU</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-green">Pizza</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-green">Saladas</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-green">Entradas</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Main-dishes');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-green">Pratos Principais</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Desserts');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-green">Sobremesas</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Rodizíos');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-green">Rodizíos</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Marguerita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$42.50</span></h1>
+      <p class="w3-text-grey">Tomates frecos, mussarela, manjericão, molho de tomate e queijo.</p>
+      <hr>
+   
+      <h1><b>Quatro queijos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$45.50</span></h1>
+      <p class="w3-text-grey">Mussarela, parmesão, provolone, requeijão cremoso, molho de tomate e queijo.</p>
+      <hr>
+      
+      <h1><b>Frango com catupiry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$47.00</span></h1>
+      <p class="w3-text-grey">Frango, requeijão cremoso, molho de tomate e queijo.</p>
+      <hr>
+
+      <h1><b>Calabresa com catupiry</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$46.50</span></h1>
+      <p class="w3-text-grey">Calabresa, requeijão cremoso, molho de tomate e queijo.</p>
+      <hr>
+
+      <h1><b>Calabresa c/ Cebola</b> <span class="w3-tag w3-red w3-round">Mais pedido!</span><span class="w3-right w3-tag w3-dark-grey w3-round">R$40.00</span></h1>
+      <p class="w3-text-grey">Azeitona Verde, Calabresa Fatiada, Cebola, Molho de tomate e Orégano</p>
+      <hr>
+
+      <h1><b>Mineira</b> <span class="w3-tag w3-grey w3-round">Novo</span><span class="w3-right w3-tag w3-dark-grey w3-round">R$21.50</span></h1>
+      <p class="w3-text-grey">Bacon, Calabresa, Mussarela e Molho de Tomate.</p>
+    </div>
+
+    <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Salada Mediterrânea</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">R$ 41,99</span></h1>
+      <p class="w3-text-grey">Grão-de-bico, atum, azeitonas, cebola roxa e pimentões coloridos.</p>
+      <hr>
+   
+      <h1><b>Salada de Quinoa com Legumes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$ 39</span></h1>
+      <p class="w3-text-grey">Quinoa, abobrinha, cenoura, tomate seco e molho cítrico.</p>
+      <hr>
+      
+      <h1><b>Salada Grega</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$23.00</span></h1>
+      <p class="w3-text-grey">Soja em grãos, cebola, tomates cereja,queijo frescal, pepino, azeitonas pretas, azeite, vinagre ou limão, sal, pimenta do reino e manjericão</p>
+      <hr>
+
+      <h1><b>Salada Caesar</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$25.50</span></h1>
+      <p class="w3-text-grey">alface-romana, maionese, queijo parmesão, mostarda, alho, bacon, pão de forma, limão, pimenta-do-reino e peito de frango.</p>
+    </div>
+
+    <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Bruschetta Clássica</b> <span class="w3-tag w3-grey w3-round">Sazonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">R$24</span></h1>
+      <p class="w3-text-grey">Fatias de pão italiano crocante cobertas com tomate fresco em cubos, alho, manjericão, azeite e toque de sal marinho.</p>
+      <hr>
+   
+      <h1><b>Focaccia Al Rosmarino</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$26</span></h1>
+      <p class="w3-text-grey">Pão artesanal assado com azeite extravirgem, alecrim fresco, sal grosso e leve toque de parmesão.</p>
+      <hr>
+      
+      <h1><b>Pão de Alho da Casa</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$22</span></h1>
+      <p class="w3-text-grey">Pão italiano recheado com creme de alho, manteiga, queijo mussarela derretido e orégano, gratinado no forno.</p>
+      <hr>
+      
+      <h1><b>Polenta Cremosa com Ragu de Carne</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$32</span></h1>
+      <p class="w3-text-grey">Polenta de milho amarela servida quente e cremosa, com ragu de carne bovina cozido lentamente em vinho tinto, tomate e ervas italianas.</p>
+      <hr>
+
+      <h1><b>Anelli di Cipolla</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$25</span></h1>
+      <p class="w3-text-grey">Anéis de cebola empanados em farinha temperada, fritos até dourar, servidos com maionese de ervas e toque de limão.</p>
+      <hr>
+      
+      <h1><b>Provolone à Milanesa</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$30</span></h1>
+      <p class="w3-text-grey">Fatias de queijo provolone empanadas e fritas, servidas com geleia de pimenta artesanal.</p>
+    </div>
+
+    <div id="Main-dishes" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Espaguete à Carbonara</b><span class="w3-right w3-tag w3-dark-grey w3-round">R$49</span></h1>
+      <p class="w3-text-grey">Massa artesanal com pancetta (bacon italiano), ovos, queijo parmesão ralado, pimenta-do-reino e toque de creme fresco.</p>
+      <hr>
+   
+      <h1><b>Fettuccine ao Molho Alfredo com Frango</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$46</span></h1>
+      <p class="w3-text-grey">Massa fresca ao molho de creme de leite, queijo parmesão, noz-moscada, manteiga e cubos de frango grelhado.</p>
+      <hr>
+      
+      <h1><b>Lasanha à Bolonhesa</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$52</span></h1>
+      <p class="w3-text-grey">Camadas de massa artesanal com molho de carne moída, bechamel, molho de tomate caseiro, queijo mussarela e parmesão gratinado.</p>
+      <hr>
+      
+      <h1><b>Ravióli de Ricota e Espinafre</b><span class="w3-tag w3-grey w3-round">Sazonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">R$55</span></h1>
+      <p class="w3-text-grey">Massa recheada com ricota fresca e espinafre refogado, servida com molho de manteiga e folhas de sálvia crocante.</p>
+      <hr>
+
+      <h1><b>Nhoque ao Molho de Tomate e Manjericão</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$44</span></h1>
+      <p class="w3-text-grey">Nhoque de batata artesanal com molho de tomate fresco, alho, cebola, manjericão e queijo parmesão.</p>
+      <hr>
+      
+      <h1><b>Risoto de Cogumelos Secos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$59</span></h1>
+      <p class="w3-text-grey">Arroz arbório cremoso com cogumelos secos, cebola, vinho branco, parmesão e toque de manteiga.</p>
+    </div>
+
+    <div id="Desserts" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Tiramisù Tradicional</b> <span class="w3-tag w3-grey w3-round">Sazonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">R$28</span></h1>
+      <p class="w3-text-grey">Camadas de biscoito embebido em café espresso, creme de mascarpone, cacau e licor de café.</p>
+      <hr>
+   
+      <h1><b>Panna Cotta com Calda de Frutas Vermelhas</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$24</span></h1>
+      <p class="w3-text-grey">Creme leve de baunilha com calda artesanal de morango, amora e framboesa.</p>
+      <hr>
+      
+      <h1><b>Gelato Artesanal(2 bolas)</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$20</span></h1>
+      <p class="w3-text-grey">Sorvete artesanal nos sabores pistache, chocolate, morango ou limão-siciliano.</p>
+      <hr>
+      
+      <h1><b>Canole Siciliano</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$27</span></h1>
+      <p class="w3-text-grey">Massa crocante recheada com creme de ricota doce, raspas de laranja e chocolate meio amargo.</p>
+      <hr>
+
+      <h1><b>Petit Gâteau com Sorvete de Creme</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$29</span></h1>
+      <p class="w3-text-grey">Bolo de chocolate com interior cremoso, servido com bola de sorvete artesanal e calda quente de chocolate.</p>
+      <hr>
+      
+      <h1><b>Romeu e Julieta Italiano</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$24</span></h1>
+      <p class="w3-text-grey">Queijo mascarpone fresco com goiabada cremosa artesanal e farofa de biscoito amanteigado.</p>
+    </div>
+
+    <div id="Rodizíos" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Rodízio de Massas e Pães</b><span class="w3-tag w3-grey w3-round">Sazonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">R$79 por pessoa</span></h1>
+      <p class="w3-text-grey">Espaguete à bolonhesa, fettuccine Alfredo, lasanha de queijo, nhoque ao sugo, focaccia e pão de alho à vontade.</p>
+      <hr>
+   
+      <h1><b>Rodízio Italiano Premium</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$99 por pessoa</span></h1>
+      <p class="w3-text-grey">Massas variadas, risotos, carnes grelhadas (frango ao limone, mignon ao molho de cogumelos) e sobremesa do dia.</p>
+      <hr>
+      
+      <h1><b>Rodízio Misto Itália-Brasil</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$94</span></h1>
+      <p class="w3-text-grey">Massas italianas, pão de queijo mineiro, carnes grelhadas e sobremesas brasileiras (pudim e brigadeiro gourmet).</p>
+      <hr>
+      
+      <h1><b>Rodízio de Pães e Antepastos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$59 por pessoa</span></h1>
+      <p class="w3-text-grey">Cesta de pães italianos, azeites aromatizados, pastas de tomate seco, berinjela e alho confitado, além de queijos e azeitonas.</p>
+      <hr>
+
+      <h1><b>Combo Família (4 pessoas)</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$229</span></h1>
+      <p class="w3-text-grey">Duas massas à escolha, cesta de pães variados, salada caprese e quatro mini-sobremesas.</p>
+      <hr>
+      
+      <h1><b>Menu Degustação (3 tempos)</b> <span class="w3-right w3-tag w3-dark-grey w3-round">R$89</span></h1>
+      <p class="w3-text-grey">Entrada: brusqueta clássica <br> Prato principal: espaguete à carbonara ou ravióli de ricota e espinafre <br>Sobremesa: tiramisù artesanal.</p>
+    </div><br>
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-green w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Sobre</h1>
+    <p>A Aroma & Cuore nasceu em 2012, fruto do sonho do Sr. Italiano, um apaixonado pela culinária tradicional da Itália e pelos sabores acolhedores do Brasil. Com o desejo de unir essas duas culturas, o Sr. Italiano criou um espaço onde o aroma das massas frescas, dos pães artesanais e das pizzas assadas em forno a lenha se mistura à hospitalidade brasileira.</p>
+    <p><strong>O chef da casa?</strong> O próprio Sr. Italiano, que comanda a cozinha com dedicação e um toque de criatividade em cada receita.<img src="/Modelo de Pizzaria/Imagens/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+    <p>Temos orgulho dos nossos interiores — um ambiente que reflete o aconchego de uma típica trattoria italiana, com iluminação suave, madeira rústica e detalhes que convidam a saborear cada momento com calma e prazer. <br>Mais do que um restaurante, a Aroma & Cuore é um pedacinho da Itália no coração do Brasil.</p>
+    <img src="/Modelo de Pizzaria/Imagens/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Horário de funcionamento</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Seg & Terça Fechados</p>
+        <p>Quarta 10.00 - 24.00</p>
+        <p>Quinta 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Sexta 10:00 - 12:00</p>
+        <p>Sábado 10:00 - 23:00</p>
+        <p>Domingo Fechado</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/Modelo de Pizzaria/Imagens/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contato</h1>
+    <p>Encontre-nos em Rua das Oliveiras, 255 – Centro, São Paulo, SP
+ou ligue para (11) 5050-5122.
+
+Adoramos receber nossos clientes — seja para um jantar a dois, um encontro em família ou uma celebração especial.</p>
+    <p><span class="w3-tag">Para sua informação!</span> Oferecemos serviço completo de buffet para qualquer evento, grande ou pequeno. Compreendemos suas necessidades e garantimos o mais alto padrão em aparência, sabor e experiência.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> uma mesa, pergunte sobre o especial de hoje ou simplesmente envie-nos uma mensagem:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Quantas pessoas" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Horário e data" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensagem \ Requisitos especiais" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block w3-hover-green" type="submit">Enviar mensagem</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>&copy; Todos os direitos reservados Aroma & Cuore</p> 
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-green", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-green";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
