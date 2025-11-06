@@ -1,0 +1,190 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.freeze{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.436);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    float: right;
+}
+
+.container{
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item{
+    color: white;
+    font-size: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(195, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .item {
+    background-color: rgb(11, 19, 235);
+}
+
+.container3 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container3 .item {
+    background-color: rgb(3, 249, 73);
+}
+
+.container4 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container4 .item {
+    background-color: rgb(16, 12, 249);
+}
+
+.container5 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container5 .item {
+    background-color: rgb(16, 12, 249);
+}
+
+.container6 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.container6 .item {
+    background-color: rgb(16, 12, 249);
+}
+
+.container7 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container7 .item {
+    background-color: rgb(16, 12, 249);
+}
+
+.container8 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container8 .item {
+    background-color: rgb(16, 12, 249);
+}
+
+.container9 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.container9 .item {
+    background-color: rgb(229, 249, 12);
+}
+
+.container10 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container10 .item {
+    background-color: rgb(233, 249, 12);
+}
+.container11 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.container11 .item {
+    background-color: rgb(200, 8, 8);
+}
+
+.container12 {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container12 .item {
+    background-color: rgb(205, 9, 9);
+}
+
+
