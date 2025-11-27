@@ -1,0 +1,14 @@
+body{
+    padding: 0%;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(1, 154, 118);
+    height: 300px;
+    width: 300px;
+}
