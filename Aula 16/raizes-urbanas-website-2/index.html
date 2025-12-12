@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raízes Urbanas - Transformando territórios através da ecocidadania">
+  <title>Raízes Urbanas | Transformação Socioambiental</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 2C10.89 2 10 2.89 10 4V12C10 13.11 10.89 14 12 14C13.11 14 14 13.11 14 12V4C14 2.89 13.11 2 12 2Z"
+              fill="currentColor" />
+            <path d="M12 14C9.79 14 8 15.79 8 18C8 20.21 9.79 22 12 22C14.21 22 16 20.21 16 18C16 15.79 14.21 14 12 14Z"
+              fill="currentColor" />
+            <path
+              d="M18 8C18 5.79 16.21 4 14 4C13.45 4 12.95 4.15 12.5 4.4C12.81 5.17 13 6.06 13 7V9.5C14.5 9.97 15.97 10.66 17.2 11.6C17.7 10.5 18 9.28 18 8Z"
+              fill="currentColor" opacity="0.6" />
+            <path
+              d="M6 8C6 9.28 6.3 10.5 6.8 11.6C8.03 10.66 9.5 9.97 11 9.5V7C11 6.06 11.19 5.17 11.5 4.4C11.05 4.15 10.55 4 10 4C7.79 4 6 5.79 6 8Z"
+              fill="currentColor" opacity="0.6" />
+          </svg>
+        </div>
+        <span class="logo-text">Raízes Urbanas</span>
+      </a>
+
+      <nav class="nav-desktop">
+        <a href="#quem-somos">Sobre Nós</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#doe-agora" class="btn-donate-header">Doe Agora</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+        <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="close-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="nav-mobile hidden" id="nav-mobile">
+      <a href="#quem-somos">Sobre Nós</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+      <a href="#doe-agora" class="btn-donate-mobile">Doe Agora</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1920&q=80"
+        alt="Floresta tropical com luz do sol">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Janela para o mundo da <em>transformação urbana</em></h1>
+          <p>Explore a riqueza da natureza urbana e descubra como transformamos concreto em vida através das nossas
+            hortas comunitárias em São Paulo.</p>
+          <a href="#doe-agora" class="btn-primary">Apoie Nosso Trabalho</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-gradient-bar"></div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="quem-somos">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">Quem Somos</span>
+          <h2>Transformando territórios através da <em>ecocidadania</em></h2>
+          <p>O Raízes Urbanas é uma iniciativa socioambiental que conecta jovens periféricos a universidades para
+            formação ecológica aplicada, ciência cidadã e participação política comunitária.</p>
+        </div>
+
+        <div class="values">
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M7 20h10"></path>
+                <path d="M10 20c5.5-2.5.8-6.4 3-10"></path>
+                <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z">
+                </path>
+                <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"></path>
+              </svg>
+            </div>
+            <div class="value-content">
+              <h3>Justiça socioambiental</h3>
+              <p>Promovemos equidade no acesso a espaços verdes e protagonismo comunitário.</p>
+            </div>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="value-content">
+              <h3>Participação comunitária</h3>
+              <p>Fortalecemos a organização popular e gestão coletiva de projetos ambientais.</p>
+            </div>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="value-content">
+              <h3>Ecocidadania crítica</h3>
+              <p>Desenvolvemos consciência ecológica articulada à leitura política do território.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projetos">
+    <div class="container">
+      <div class="projects-header">
+        <span class="section-tag">Nossos Projetos</span>
+        <h2>Iniciativas que <em>transformam</em></h2>
+      </div>
+
+      <div class="carousel-wrapper">
+        <button class="carousel-btn carousel-prev" id="prev-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"></path>
+          </svg>
+        </button>
+
+        <div class="carousel" id="projects-carousel">
+          <div class="project-card" data-project="1">
+            <div class="project-bg">
+              <img src="public/young-people-gardening-urban-community-garden-educ.jpg"
+                alt="Formação ecológica">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-status active">Ativo</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3>Programa de Formação Ecológica</h3>
+              <p class="project-audience">Jovens periféricos de 14–20 anos</p>
+              <div class="project-expanded">
+                <p class="project-description">Um programa intensivo de formação que conecta jovens da periferia com
+                  práticas de educação ambiental, permacultura urbana e protagonismo comunitário.</p>
+                <div class="project-info">
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg> São Paulo, SP</span>
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg> 6 meses</span>
+                  <span class="vacancies"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      width="12" height="12">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                    </svg> 25 vagas</span>
+                </div>
+                <div class="project-cta">
+                  <span>Clique para se inscrever</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="2">
+            <div class="project-bg">
+              <img src="public/trilha-urbana.jpg" alt="Trilha urbana">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-status active">Ativo</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3>Trilha Urbana de Leitura do Território</h3>
+              <p class="project-audience">Comunidades urbanas e escolas públicas</p>
+              <div class="project-expanded">
+                <p class="project-description">Expedições educativas que revelam a biodiversidade escondida nas cidades.
+                  Mapeamos espécies nativas e criamos roteiros de ecoturismo urbano.</p>
+                <div class="project-info">
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg> Região Metropolitana de SP</span>
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg> 3 meses</span>
+                  <span class="vacancies"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      width="12" height="12">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                    </svg> 40 vagas</span>
+                </div>
+                <div class="project-cta">
+                  <span>Clique para se inscrever</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="3">
+            <div class="project-bg">
+              <img src="public/reflorestamento.jpg" alt="Reflorestamento">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-status completed">Concluído</span>
+                <span class="project-year">2024</span>
+              </div>
+              <h3>Reflorestamento de Microáreas</h3>
+              <p class="project-audience">Moradores e coletivos comunitários</p>
+              <div class="project-expanded">
+                <p class="project-description">Iniciativa de recuperação ambiental em pequenas áreas urbanas degradadas.
+                  Plantamos mais de 500 mudas nativas.</p>
+                <div class="project-info">
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg> Zona Leste de SP</span>
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg> Concluído</span>
+                </div>
+                <div class="project-cta">
+                  <span>Ver detalhes</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="4">
+            <div class="project-bg">
+              <img src="public/hortas-comunitarias.jpg"
+                alt="Hortas comunitárias">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-status active">Ativo</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3>Hortas Comunitárias Periféricas</h3>
+              <p class="project-audience">Famílias e associações de bairro</p>
+              <div class="project-expanded">
+                <p class="project-description">Implantação de hortas comunitárias em terrenos ociosos. Promovemos
+                  segurança alimentar e fortalecimento comunitário.</p>
+                <div class="project-info">
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg> Diversas regiões de SP</span>
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12"
+                      height="12">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg> Contínuo</span>
+                  <span class="vacancies"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      width="12" height="12">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                    </svg> 60 vagas</span>
+                </div>
+                <div class="project-cta">
+                  <span>Clique para se inscrever</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn carousel-next" id="next-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modal -->
+  <div class="modal hidden" id="project-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-image">
+        <img src="/placeholder.svg" alt="" id="modal-img">
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-header">
+          <div class="modal-meta">
+            <span class="project-status" id="modal-status"></span>
+            <span class="project-year" id="modal-year"></span>
+          </div>
+          <h3 id="modal-title"></h3>
+          <p id="modal-audience"></p>
+        </div>
+
+        <div class="modal-info-grid">
+          <div class="modal-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>
+              <p class="label">Local</p>
+              <p class="value" id="modal-location"></p>
+            </div>
+          </div>
+          <div class="modal-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <div>
+              <p class="label">Duração</p>
+              <p class="value" id="modal-duration"></p>
+            </div>
+          </div>
+          <div class="modal-info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+            </svg>
+            <div>
+              <p class="label">Vagas</p>
+              <p class="value" id="modal-vacancies"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4>Sobre o projeto</h4>
+          <p id="modal-description"></p>
+        </div>
+
+        <div class="modal-section">
+          <h4>Atividades</h4>
+          <div class="activities-list" id="modal-activities"></div>
+        </div>
+
+        <!-- Inscription Form -->
+        <div class="inscription-form" id="inscription-form">
+          <h4>Inscreva-se</h4>
+
+          <div class="inscription-type-selection" id="type-selection">
+            <button class="type-btn" data-type="voluntario">
+              <div class="type-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h5>Quero ser voluntário</h5>
+              <p>Contribua com seu tempo e habilidades para fazer a diferença</p>
+            </button>
+            <button class="type-btn" data-type="participante">
+              <div class="type-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </div>
+              <h5>Quero participar</h5>
+              <p>Participe das atividades e transforme sua comunidade</p>
+            </button>
+          </div>
+
+          <form class="form-fields hidden" id="form-fields">
+            <div class="form-type-info">
+              <span>Inscrevendo-se como: <strong id="form-type-label"></strong></span>
+              <button type="button" class="change-type-btn" id="change-type">Alterar</button>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-name">Nome completo</label>
+                <input type="text" id="form-name" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email">E-mail</label>
+                <input type="email" id="form-email" placeholder="seu@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-phone">Telefone</label>
+              <input type="tel" id="form-phone" placeholder="(11) 99999-9999" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" id="form-message-label">Por que você quer participar?</label>
+              <textarea id="form-message" placeholder="Conte um pouco sobre você..." rows="3" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar inscrição</button>
+          </form>
+
+          <div class="form-success hidden" id="form-success">
+            <div class="success-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h4>Inscrição enviada!</h4>
+            <p id="success-message"></p>
+          </div>
+        </div>
+
+        <div class="project-completed-msg hidden" id="completed-msg">
+          <p>Este projeto foi concluído em 2024. Confira nossos projetos ativos!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <section class="team" id="equipe">
+    <div class="container">
+      <div class="team-header">
+        <span class="section-tag">Nossa Equipe</span>
+        <h2>Pessoas que fazem <em>acontecer</em></h2>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Ana Ribeiro">
+          </div>
+          <h3>Ana Ribeiro</h3>
+          <p>Coordenadora de Extensão</p>
+        </div>
+
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Lucas Ferreira">
+          </div>
+          <h3>Lucas Ferreira</h3>
+          <p>Facilitador Comunitário</p>
+        </div>
+
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Mariana Santos">
+          </div>
+          <h3>Mariana Santos</h3>
+          <p>Bióloga e Educadora</p>
+        </div>
+
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Roberto Costa">
+          </div>
+          <h3>Roberto Costa</h3>
+          <p>Mobilização Juvenil</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section class="donate" id="doe-agora">
+    <div class="donate-bg">
+      <div class="donate-blob donate-blob-1"></div>
+      <div class="donate-blob donate-blob-2"></div>
+    </div>
+
+    <div class="container">
+      <div class="donate-grid">
+        <div class="donate-text">
+          <span class="section-tag">Apoie nossa causa</span>
+          <h2>Faça parte desta <em>transformação</em></h2>
+          <p>Sua contribuição fortalece nossos projetos e ajuda a formar jovens lideranças nos territórios periféricos
+            de São Paulo. Cada doação é um passo em direção a um futuro mais justo e sustentável.</p>
+
+          <div class="donate-benefits">
+            <div class="benefit">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <h4>Impacto direto</h4>
+                <p>100% destinado aos projetos sociais</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Transparência total</h4>
+                <p>Prestação de contas mensal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="donate-form-card">
+          <form class="donate-form" id="donate-form">
+            <div class="form-group">
+              <label for="donor-name">Nome completo</label>
+              <input type="text" id="donor-name" placeholder="Seu nome" required>
+            </div>
+
+            <div class="form-group">
+              <label for="donor-email">E-mail</label>
+              <input type="email" id="donor-email" placeholder="seu@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label>Valor da doação</label>
+              <div class="amount-grid">
+                <label class="amount-option">
+                  <input type="radio" name="amount" value="50">
+                  <span>R$ 50</span>
+                </label>
+                <label class="amount-option">
+                  <input type="radio" name="amount" value="100" checked>
+                  <span>R$ 100</span>
+                </label>
+                <label class="amount-option">
+                  <input type="radio" name="amount" value="200">
+                  <span>R$ 150</span>
+                </label>
+                <label class="amount-option">
+                  <input type="radio" name="amount" value="500">
+                  <span>R$ 200</span>
+                </label>
+                <label class="amount-option" id="other-amount-option">
+                  <input type="radio" name="amount" value="custom">
+                  <span>Outro valor</span>
+                </label>
+
+                <div id="custom-input-wrapper" class="hidden">
+                  <input type="number" id="custom-amount" min="1" placeholder="Digite o valor" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Forma de pagamento</label>
+              <div class="payment-options">
+                <label class="payment-option">
+                  <input type="radio" name="payment" value="pix" checked>
+                  <div class="radio-custom"></div>
+                  <span>Pix</span>
+                </label>
+                <label class="payment-option">
+                  <input type="radio" name="payment" value="card">
+                  <div class="radio-custom"></div>
+                  <span>Cartão de Crédito</span>
+                </label>
+                <label class="payment-option">
+                  <input type="radio" name="payment" value="boleto">
+                  <div class="radio-custom"></div>
+                  <span>Boleto Bancário</span>
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn-donate">Doar R$ <span id="donate-amount">100</span></button>
+            <p class="secure-text">Pagamento seguro e criptografado</p>
+          </form>
+
+          <div class="donate-success hidden" id="donate-success">
+            <div class="success-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3>Obrigado, <span id="donor-name-success"></span>!</h3>
+            <p>Sua doação de R$ <span id="donor-amount-success"></span> foi registrada com sucesso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contato">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2C10.89 2 10 2.89 10 4V12C10 13.11 10.89 14 12 14C13.11 14 14 13.11 14 12V4C14 2.89 13.11 2 12 2Z"
+                fill="currentColor" />
+              <path
+                d="M12 14C9.79 14 8 15.79 8 18C8 20.21 9.79 22 12 22C14.21 22 16 20.21 16 18C16 15.79 14.21 14 12 14Z"
+                fill="currentColor" />
+            </svg>
+          </div>
+          <span>Raízes Urbanas</span>
+        </div>
+
+        <div class="footer-info">
+          <div class="footer-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>São Paulo, SP</span>
+          </div>
+          <div class="footer-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:contato@raizesurbanas.org">contato@raizesurbanas.org</a>
+          </div>
+        </div>
+
+        <p class="footer-copyright">© 2025 Raízes Urbanas</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

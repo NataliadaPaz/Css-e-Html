@@ -3,11 +3,15 @@ body{
     padding: 0;
     background-color: #7cb1a1;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
 }
 header{
     color: black;
-    background-color: #f6f6f6;
-    max-width: 100%;
+    background-color: #ffffff;
+    width: 100%;
     padding: 20px 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -30,32 +34,71 @@ main {
 
 section{
     color: black;
-    float: left;
-    margin: 20px 225px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 25px 25px;
     padding: 15px;
     background-color: aliceblue;
-    width: 1000px;
+    width: 80%;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+article{
+    color: black;
+    float: left;
+    margin: 20px 25px;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 80vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+details{
+    border: 2px rgb(0, 147, 93) solid;
+    background-color: #eaf5f1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+h3{
+    text-align: center; 
+    font-size: 20px;  
+    color: cadetblue;
+}
+summary{
+    font-weight: bold;
+    cursor: pointer;
+    color: cadetblue;
+}
+footer {
+    clear: both;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #487a59;
+    color: #ffffff;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    margin: 0 15px 20px 0;
+    text-align: center;
+    vertical-align: top;
 }
 
 img{
     border-radius: 15px;
     height: 400px;
     float: left;
-    margin-right: 15px;
+    margin: 0 30px;
+    max-width: 500px;
 }
 
-footer {
-    clear: both;
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #487a59;
-    color: #fafffc;
-    text-align: center;
+figcaption {
+    color: #000000;
+    margin-top: 8px;
+    font-size: 0.95rem;
 }
 
-figure {
-    background-color: #487a59;
-    
-}
